@@ -1,3 +1,11 @@
+# Instructions to Setup web3 and create-react-app
+
+
+## Official Instructions
+[Web3 Official Instructions](https://github.com/ChainSafe/web3.js#web3-and-create-react-app)
+
+--------------------
+### Old Instructions
 https://github.com/ChainSafe/web3.js/issues/4090
 
 This webpack file is configured to support crypto/web3 apps with react/webpack v5
@@ -5,12 +13,8 @@ This webpack file is configured to support crypto/web3 apps with react/webpack v
 install
 npm i buffer process stream-browserify os-browserify stream-http https-browserify url
 
-
-
-
 insert this in ->
 webpack.config.js in react-scripts
-
 
       new webpack.ProvidePlugin({
         Buffer: ["buffer", "Buffer"],
